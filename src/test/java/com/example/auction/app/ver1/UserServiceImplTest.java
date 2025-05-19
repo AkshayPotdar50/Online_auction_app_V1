@@ -31,7 +31,7 @@ public class UserServiceImplTest {
 
     @BeforeEach
     void setUp() {
-        // ✅ Assign to class-level user, not declare new one
+
         user = new User(); // ✅ correct
         user.setId(1L);
         user.setName("Akshay");
